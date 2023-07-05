@@ -1,8 +1,8 @@
-name ___ price ___ quantity___unit___ provider
-tomato___ 1.5___ 2___kg___grocery store
-carrot___3___5___kg___supermarket
-cabbage___ 1.2___ 5___kg___grocery store
-beetroot___5___1___kg___supermarket
+name *** price *** quantity***unit*** provider
+tomato*** 1.5*** 2***kg***grocery store
+carrot***3***5***kg***supermarket
+cabbage*** 1.2*** 5***kg***grocery store
+beetroot***5***1***kg***supermarket
 
 
 //select char and CTR R to replace any character and then select replace all

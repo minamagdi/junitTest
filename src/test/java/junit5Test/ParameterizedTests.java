@@ -54,10 +54,9 @@ public class ParameterizedTests {
 
     @ParameterizedTest
     //@CsvFileSource(files = "src/test/resources/params/shoppingList.csv",numLinesToSkip = 1)//to skip first line of file in case of one file
-//    @CsvFileSource(files ={"src/test/resources/params/shoppingList.csv",
-//            "src/test/resources/params/shoppingList2.csv"},numLinesToSkip = 1)
+//    @CsvFileSource(files ={"src/test/resources/params/shoppingList.csv","src/test/resources/params/shoppingList2.csv"},numLinesToSkip = 1)
 
-    @CsvFileSource(files = "src/test/resources/params/shoppingList3.csv", numLinesToSkip = 1, delimiterString = "___")
+    @CsvFileSource(files = "src/test/resources/params/shoppingList3.csv", numLinesToSkip = 1, delimiterString = "***")
     public void csvSource_StringDoubleIntStringString(String name, Double price,
                                                       int quantity, String unit,
                                                       String provider) {
