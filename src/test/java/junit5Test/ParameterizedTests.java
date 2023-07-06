@@ -42,13 +42,13 @@ public class ParameterizedTests {
 
     @ParameterizedTest
     @CsvSource(value = {"mina magdy,'ali,kamel'", "moheb samy,'ahmed,galal'"})
-    public void csvSource_StringWithComa(String param1, String param2) {
+     void csvSource_StringWithComa(String param1, String param2) {
         System.out.println("param1 : " + param1 + " ,param2 : " + param2);
     }
 
     @ParameterizedTest
     @CsvSource(value = {"mina?magdy", "ali?maher"}, delimiter = '?')
-    public void csvSource_StringWithDiffDelimiter(String param1, String param2) {
+     void csvSource_StringWithDiffDelimiter(String param1, String param2) {
         System.out.println("param1 : " + param1 + ", param2: " + param2);
     }
 

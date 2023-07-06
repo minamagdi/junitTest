@@ -25,10 +25,10 @@ public class AssumtionTest {
     }
 
     @ParameterizedTest
-    @CsvSource(value = {"mina,29,true", "nermeen,29,false", "madonna,22,true"})
+    @CsvSource(value = {"mina,29,true", "nermeen,80,false", "madonna,22,true"})
     public void csvSource_StringIntBoolean(String param1, int param2, boolean param3) {
 
-        assumingThat(param2 > 20,() -> System.out.println("the test is run"));
+        assumingThat(param2 > 23,() -> System.out.println("the test is run"));
         System.out.println("param1 : " + param1 + " , param2 : " + param2 + " , param3 : " + param3);
     }
 }
